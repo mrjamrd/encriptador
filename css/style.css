@@ -88,3 +88,7 @@ main{
     position: absolute;
     width: 336px;
 }
+.caja{
+    width: 940px;
+    margin: auto;
+}

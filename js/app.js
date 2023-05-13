@@ -13,7 +13,7 @@ function desencriptado(){
     var textoEntrada = document.querySelector("#text").value;
     var textoCifrado = textoEntrada.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
     //document.querySelector("salida").value = textoCifrado;
-    //document.querySelector("#input-texto").value;
+    //document.querySelector("#text").value;
     document.getElementById("salida").innerHTML = textoCifrado
 
 }
