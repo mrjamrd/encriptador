@@ -1,94 +1,52 @@
-/*Desafio de alura/Oracle Next Education*/
+/**/
 
-
-*{
+body{
     background: #f3f5fc;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 150%;
+    background-image: url("img/bg.png");
 }
 .logo{
-    padding-top: 10px;
-    margin-left: 10px;
-    width:10%;
-}
-main{
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
-}
-
-.text-area{
-    border: none;
+    text-transform: uppercase;
     color: #0A3871;
-    margin-top: 90px;
-    text-transform: lowercase;
+}
+#space{
+    padding-top: 20px;
 }
 
 ::placeholder {
     color:#0A3871;
-
 }
-
+p{
+    color: #0A3871; 
+}
 .text-area:focus{
     outline:  none;
-}
-
-.mensaje{
-  background: white;
-  background-image: url("img/muneco.png");
-  background-repeat: no-repeat; 
-  border: none;
-  border-radius: 24px;
-  color: #0A3871;
-  margin-left: 98px;
-  margin-top: 20px;
-  padding-left: 20px;
-  position: fixed;  
 }
 .mensaje:focus{
     outline:none;
 }
-
-.botones{
-    display: flex;
-    margin-top: 18px;
-
-}
-
-.btn-desencriptor{
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
+.text-area{
+    border: #0A3871 solid 1px;
     color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 67px;
-    width: 328px;
+    background: #f3f5fc;
+    text-transform: lowercase;
+    font-size: 24px;
+    border-radius: 20px;
+    text-indent: 15px;
+    resize: none;
 }
-
-.btn-encriptar{
-    background-color: #0A3871;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: white;
-    cursor: pointer;
-    height: 67px;
-    width: 328px;
-}
-
-.btn-copiar{
-    border: 1px solid #0A3871;
-    border-radius: 24px;
+.mensaje{
+    background: white;
+    background-image: url("img/muneco.png");
+    background-repeat: no-repeat; 
+    border: none;
+    border-radius: 15px;
+    text-indent: 15px;
+    font-size: 20px;
     color: #0A3871;
-    height: 67px;
-    margin-left: 108px;
-    margin-top: 402px;
-    position: absolute;
-    width: 336px;
+    resize: none;
+   
 }
-.caja{
-    width: 940px;
-    margin: auto;
-}
+
+  .mensaje:focus{
+    outline:none;
+}  
